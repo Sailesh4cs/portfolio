@@ -1,6 +1,6 @@
-# Engineering Intelligence Portfolio
+# Sailesh Kumar Portfolio
 
-Self-contained React + TypeScript + Vite single-page portfolio. The app lives in `portfolio/` so the existing .NET Azure Functions service is unchanged.
+Self-contained React + TypeScript + Vite single-page portfolio for Sailesh Kumar. It presents verified resume experience across full stack development, cloud platforms, enterprise integrations and practical AI workflows.
 
 ## Setup
 
@@ -14,7 +14,7 @@ Validate with `npm run typecheck` and build with `npm run build`. `npm run lint`
 
 ## Configuration
 
-Edit `src/config.ts` to replace the clearly marked identity, contact, social links, and bracketed project case-study placeholders. All twelve requested project names are included. The project types are deliberately limited to `Production`, `POC`, `Internal Tool`, and `Experiment`; AI/automation entries are explicitly labeled POC, Experiment, or Exploration. Do not add metrics or outcomes without evidence. Skills are grouped as Backend/APIs, Frontend, Cloud/DevOps, CMS/content, Data/integrations, and AI/automation.
+Resume content is centralized in the typed `src/config.ts` file. GitHub, LinkedIn and Resume remain intentionally marked “Add link” in the UI until verified URLs are available. The Knowledge Base RAG Assistant is explicitly labeled a demo concept and is not presented as employment work.
 
 Asset URLs use Vite's `import.meta.env.BASE_URL` and `%BASE_URL%` replacement, so the app is safe on a repository Pages subpath. Set `VITE_BASE_PATH` when deploying under a different subpath (the default is `/portfolio/`).
 
