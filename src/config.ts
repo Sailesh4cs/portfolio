@@ -22,9 +22,8 @@ export const siteConfig = {
   location: 'Gurugram, India',
   phone: '7508718741',
   email: 'sailesh4cs@gmail.com',
-  github: '',
-  linkedin: '',
-  resume: '',
+  github: 'https://github.com/Sailesh4cs',
+  linkedin: 'https://www.linkedin.com/in/sailesh-kumar-609859a0',
   about: [
     'I design and deliver secure enterprise software across APIs, microservices, CMS platforms, event-driven integrations and cloud services.',
     'My current focus is practical AI: prompt engineering, RAG, tool and function calling, agent orchestration, memory and context management, guardrails and evaluation.',
@@ -45,17 +44,6 @@ export const siteConfig = {
     ...(['Kafka', 'RabbitMQ', 'IBM MQ', 'Git', 'Azure DevOps', 'Bitbucket', 'Jira', 'Confluence', 'CI/CD'].map((name) => ({ name, category: 'Messaging/DevOps' as const, detail: 'Event-driven systems, release collaboration and delivery workflows.' }))),
     ...(['Agile/Scrum', 'Clean Architecture', 'SOLID', 'Secure coding', 'Code reviews', 'Observability', 'Performance optimization'].map((name) => ({ name, category: 'Practices' as const, detail: 'Practical engineering habits for reliable, maintainable delivery.' }))),
   ] satisfies Skill[],
-  experience: [
-    { role: 'Sr. Software Developer', company: 'Evalueserve Pvt. Ltd.', dates: 'Apr 2021 – Present', detail: 'Enterprise REST APIs and microservices with ASP.NET Core/C#; Angular modules; architecture, API contracts, data modeling, scalability and security. Building AI-ready services with LLM integration, RAG-oriented workflows, tool calling, prompt design and business API integration. SQL performance, code reviews, mentoring and QA/DevOps releases.' },
-    { role: 'Software Developer', company: 'Softobiz Pvt. Ltd.', dates: 'Jun 2019 – Apr 2021', detail: '.NET Core microservices, Angular, Kafka event-driven architecture and SQL Server, with responsibility for scalable solutions and release support.' },
-    { role: 'Software Developer', company: 'Orion E Solution', dates: 'Dec 2018 – Jun 2019', detail: 'Translated client requirements into technical solutions using ASP.NET Core REST APIs, Angular and SQL Server, including deployments and documentation.' },
-    { role: 'Associate Software Developer', company: 'OATI Pvt. Ltd.', dates: 'Mar 2016 – Nov 2018', detail: 'Resolved production issues, delivered enhancements and change requests, improved reliability and collaborated with QA on business-critical releases.' },
-  ],
-  education: [
-    { qualification: 'B.Tech (Computer Science Engineering)', school: 'SVIET', year: '2016' },
-    { qualification: '12th', school: 'K.V. Bantalab Jammu', year: '2011' },
-    { qualification: '10th', school: 'K.V. Bantalab Jammu', year: '2009' },
-  ],
   projects: [
     { title: 'Agentic AI & Intelligent Enterprise Automation', type: 'Production', label: 'AI / AUTOMATION', summary: 'AI assistant patterns for multi-step tasks, tool calling, enterprise retrieval, response validation and secure business API integration.', technologies: ['Python', 'FastAPI', 'Azure OpenAI', 'LangChain', 'LangGraph', 'RAG', '.NET Core', 'Angular', 'Azure'], challenge: 'Connect LLM reasoning to trusted enterprise context and business actions.', contribution: 'Designed AI-ready services, prompt flows, retrieval-oriented workflows, tool calling and validation boundaries.', outcome: 'A practical foundation for grounded, secure enterprise AI workflows.', tabs: [{ label: 'Architecture', content: 'Combines Python AI services with enterprise APIs, retrieval patterns and explicit response validation.' }, { label: 'Focus', content: 'Prompt design, context management, guardrails, evaluation and secure integration.' }] },
     { title: 'Enterprise CMS Modernization & Contentful Platform', type: 'Internal Platform', label: 'CMS / PLATFORM', summary: 'Contentful Custom Apps, workflow automation, validation, metadata, publishing enhancements and integrations.', technologies: ['.NET Core', 'React', 'Angular', 'Contentful', 'GraphQL', 'Azure Functions', 'Azure App Services'], challenge: 'Make enterprise content workflows more structured, integrated and maintainable.', contribution: 'Designed custom apps, workflow automation and content integrations across APIs, metadata and publishing flows.', outcome: 'A clearer platform foundation for content operations and connected applications.', tabs: [{ label: 'Platform', content: 'Contentful capabilities were extended with custom interfaces, validation, metadata management and publishing enhancements.' }, { label: 'Integration', content: 'GraphQL, .NET Core and Azure services connected content workflows to enterprise applications.' }] },

@@ -14,7 +14,7 @@ Validate with `npm run typecheck` and build with `npm run build`. `npm run lint`
 
 ## Configuration
 
-Resume content is centralized in the typed `src/config.ts` file. GitHub, LinkedIn and Resume remain intentionally marked “Add link” in the UI until verified URLs are available. The Knowledge Base RAG Assistant is explicitly labeled a demo concept and is not presented as employment work.
+Portfolio content is centralized in the typed `src/config.ts` file. GitHub and LinkedIn links are configured there. The Knowledge Base RAG Assistant is explicitly labeled a demo concept and is not presented as employment work.
 
 Asset URLs use Vite's `import.meta.env.BASE_URL` and `%BASE_URL%` replacement, so the app is safe on a repository Pages subpath. Set `VITE_BASE_PATH` when deploying under a different subpath (the default is `/portfolio/`).
 
