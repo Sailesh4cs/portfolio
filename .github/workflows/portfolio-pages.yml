@@ -2,7 +2,7 @@ name: Portfolio Pages
 on:
   push:
     branches: [main]
-    paths: ['portfolio/**', '.github/workflows/portfolio-pages.yml']
+    paths: ['**', '.github/workflows/portfolio-pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,14 +17,12 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: portfolio/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci
-        working-directory: portfolio
       - run: npm run typecheck && npm run lint && npm run build
-        working-directory: portfolio
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: portfolio/dist
+          path: dist
   deploy:
     needs: build
     runs-on: ubuntu-latest
